@@ -3,6 +3,7 @@ import { ValuePropSection } from "@/components/ValuePropSection";
 import { PortfolioMarquee } from "@/components/PortfolioMarquee";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { FooterCTA } from "@/components/FooterCTA";
+import { ContactSection } from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <PortfolioMarquee />
       <ValuePropSection />
       <ProcessSteps />
+      <ContactSection />
       <FooterCTA />
     </main>
   );

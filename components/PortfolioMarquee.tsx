@@ -15,7 +15,7 @@ const items = [
 
 export function PortfolioMarquee() {
   return (
-    <section className="py-20 overflow-hidden relative border-y border-white/5 bg-black/50">
+    <section id="work" className="py-20 overflow-hidden relative border-y border-white/5 bg-black/50">
       <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#030014] to-transparent z-10 hidden md:block" />
       <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#030014] to-transparent z-10 hidden md:block" />
       

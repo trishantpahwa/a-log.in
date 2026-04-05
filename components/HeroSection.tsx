@@ -47,11 +47,20 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
         >
-          <Button size="lg" className="w-full sm:w-auto group">
+          <Button 
+            size="lg" 
+            className="w-full sm:w-auto group"
+            onClick={() => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Get Your Free Quote
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button variant="outline" size="lg" className="w-full sm:w-auto">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="w-full sm:w-auto"
+            onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             View Our Work
           </Button>
         </motion.div>

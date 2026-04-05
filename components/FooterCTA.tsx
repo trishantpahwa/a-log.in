@@ -30,7 +30,11 @@ export function FooterCTA() {
            viewport={{ once: true }}
            transition={{ delay: 0.2 }}
         >
-           <Button size="lg" className="w-full sm:w-auto px-12 py-5 text-lg shadow-[0_0_30px_rgba(255,0,127,0.4)]">
+           <Button 
+             size="lg" 
+             className="w-full sm:w-auto px-12 py-5 text-lg shadow-[0_0_30px_rgba(255,0,127,0.4)]"
+             onClick={() => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' })}
+           >
              Get a Free Proposal
            </Button>
         </motion.div>
