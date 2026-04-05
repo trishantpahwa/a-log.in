@@ -20,12 +20,42 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://a-log.in"),
   title: "Elevate | Premium Website Development",
   description: "Stop losing customers to ugly websites. Get a high-converting, lightning-fast website for your business today.",
+  keywords: [
+    "website development",
+    "web design",
+    "premium websites",
+    "high-converting websites",
+    "business website",
+    "fast websites",
+    "modern web development",
+  ],
+  authors: [{ name: "Elevate" }],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  alternates: {
+    canonical: "https://a-log.in",
+  },
   openGraph: {
     title: "Elevate | Premium Website Development",
     description: "High-converting, lightning-fast websites for modern businesses.",
+    url: "https://a-log.in",
+    siteName: "Elevate",
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Elevate | Premium Website Development",
+    description: "High-converting, lightning-fast websites for modern businesses.",
   },
 };
 
